@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-wintch, instial-scale-1.0">
+    <meta http-equiv="X-UA_campatible" content="ie=edge">
+    <title>JavaScript coder</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font: normal 12pt Arial;
+        }
+    </style>
+</head>
+<body>
+<h1>JavaScript</h1>
+
+<script>
+/*
+Escreva a função podeSeAposentar que recebe por parâmetro a idade, o sexo e os anos de contribuição previdenciária que uma pessoa tem, exemplo:
+podeSeAposentar(62, "F", 34)
+true
+
+Tenha em mente que a idade mínima para se aposentar para mulheres é 60 anos, enquanto que para homens é 65. 
+Em ambos os casos, você deve ter pelo menos 30 anos de contribuição.
+
+*/
+
+    function podeSeAposentar(idade, sexo, contribuicao){
+        return idade >= 60 && sexo === "F" && contribuicao >= 30 || 
+                idade >= 65 && sexo === "M" && contribuicao >= 30;
+    }
+
+
+   
+</script>
+
+</body>
+</html>
+    
