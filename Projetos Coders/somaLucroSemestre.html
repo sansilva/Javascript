@@ -24,29 +24,23 @@
 
 <script>
 /*
-Escreva a função “medalhaDeAcordoComPosto(numero)”, que recebe um número como parâmetro. Usando apenas o máximo de um “if” apenas. Talvez os arrays possam ser úteis aqui.
+Tem algum problema na função somaLucroSemestre que escrevemos anteriormente? Funcionará com trimestres? E com quadrimestres?
 
-Você tem que devolver a medalha que corresponde às primeiras posições de uma competição:
+Experimente testar a função no terminal utilizando o console.log, fazendo diferentes impressões na tela!
+
+Lembre-se de testar no mínimo 3 vezes o console.
 */
 
-function medalhaDeAcordoComPosto(numero){
-    var result = [1, 2, 3]
-    var posicao = result.indexOf(numero); 
-    if(posicao === 0){
-        return "ouro"
-    }else if(posicao === 1){
-        return "prata"
+function somaLucroSemestre(umSemestre) {
+   return umSemestre[0] + umSemestre[1] +
+       umSemestre[2] + umSemestre[3] +
+       umSemestre[4] + umSemestre[5];
 
-    }else if(posicao === 2){
-        return "bronze"
-
-    }else {
-        return "nada"
-    }
-    
 }
 
-
+console.log(somaLucroSemestre);
+console.log(somaLucroSemestre);
+console.log(somaLucroSemestre);
    
 </script>
 
