@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-wintch, instial-scale-1.0">
+    <meta http-equiv="X-UA_campatible" content="ie=edge">
+    <title>JavaScript coder</title>
+    <style>
+        body{
+            background-color: #0468BF;
+            color: white;
+            font: normal 12pt Arial;
+        }
+    </style>
+</head>
+<body>
+<h1>JavaScript</h1>
+<hr>
+<p>Em troca da sua ajuda, eu ofereço algo muito valioso.
+    <li>Minha liberdade?</li>
+    <li>A liberdade pode nos ser tirada, como você bem sabe. Eu te ofereço meu conhecimento.</li>
+    </p>
+    <p>O Conde de Monte Cristo</p>
+
+<script>
+/*
+Então temos que repetir a operação de acumulação várias vezes, uma para cada elemento do array. Isso não só nos deixa desarrumados, mas também muito repetitivos!
+Não havia uma estrutura que vimos anteriormente que nos permitisse repetir uma ação várias vezes?
+Sim, é o for!
+E como posso pedir que ele repita essa ação dinamicamente para todos os elementos?
+Perguntando o length para o array!
+Exemplo:
+*/
+
+function lucroTotal(umPeriodo){
+  var soma= 0;
+  var mes = 0;
+  for (var i=0; i<umPeriodo.length; i++){
+    mes = umPeriodo[i];
+    soma= soma + mes;
+  }
+  return soma;
+}
+   
+</script>
+
+</body>
+</html>
+    
